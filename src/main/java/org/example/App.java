@@ -12,8 +12,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext ioc=new ClassPathXmlApplicationContext("config.xml");
-        Student obj=(Student) ioc.getBean("student");
-        System.out.print(obj.toString());
+        ApplicationContext ioc=new ClassPathXmlApplicationContext("setterInjection.xml");
+        Student obj=(Student) ioc.getBean("student1");
+        System.out.print(obj.toString()+" : Execution done");
     }
 }

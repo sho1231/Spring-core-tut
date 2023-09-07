@@ -11,8 +11,9 @@
         <property name="id">
             <value>1</value>
         </property>
-        <property name="name">
-            <value>"Shourja1"</value>
-        </property>
+        <property name="name" value="ShourjaTest"/>
+        <property name="grade" value="23a"/>
     </bean>
+
+    <bean class="org.example.pojos.Student" name="student1" p:name='ShourjaTest' p:grade="21a" p:id='2'/>
 </beans>

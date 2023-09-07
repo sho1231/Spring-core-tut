@@ -5,6 +5,7 @@ import com.sun.net.httpserver.HttpServer;
 public class Student {
   private int id;
   private String name;
+  private String grade;
 
   public void setId(int id) {
     this.id = id;
@@ -24,13 +25,22 @@ public class Student {
   public Student(){
     super();
   }
-  public Student(int id,String name){
+  public Student(int id,String name,String grade){
     super();
     this.id=id;
     this.name=name;
+    this.grade=grade;
   }
   @Override
   public String toString(){
-    return "id:"+id+" || "+"name:"+name;
+    return "id:"+id+" || "+"name:"+name+" || "+"grade:"+grade;
+  }
+
+  public String getGrade() {
+    return grade;
+  }
+
+  public void setGrade(String grade) {
+    this.grade = grade;
   }
 }
