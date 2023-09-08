@@ -12,8 +12,37 @@
             <value>1</value>
         </property>
         <property name="name" value="ShourjaTest"/>
-        <property name="grade" value="23a"/>
+<!--        <property name="grade" value="23a"/>-->
+        <property name="grade" value="23b"/>
     </bean>
 
     <bean class="org.example.pojos.Student" name="student1" p:name='ShourjaTest' p:grade="21a" p:id='2'/>
+    <bean class="org.example.pojos.Employee" name="employee" p:name="Shourja">
+        <property name="phNo">
+            <list>
+                <value>93828882828</value>
+                <value>3828882838</value>
+                <null/>
+            </list>
+        </property>
+<!--        to create empty list
+    <property name="phNo">
+            <list>
+
+            </list>
+        </property>
+
+-->
+<!--        if only one element need to be inserted no need of list tag
+        <property name="phNo">
+            <value>88787 </value>
+        </property>
+-->
+        <property name="courses">
+            <map>
+                <entry key="course1" value="btech"></entry>
+                <entry key="course2" value="mtech"></entry>
+            </map>
+        </property>
+    </bean>
 </beans>
