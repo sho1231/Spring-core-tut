@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean class="org.example.pojos.Student" name="student">
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="Shourja"></constructor-arg>
+        <constructor-arg value="B"></constructor-arg>
+    </bean>
+<!--    Dependency injection in constructor injection-->
+    <bean class="org.example.pojos.Student" name="student1">
+        <constructor-arg ref="student"></constructor-arg>
+    </bean>
+    <bean class="org.example.pojos.Addition" name="add">
+        <constructor-arg value="5"/>
+        <constructor-arg value="2.0"/>
+    </bean>
+    <bean class="org.example.pojos.Addition" name="add1">
+        <constructor-arg value="3.12" type="double"/>
+        <constructor-arg value="2" type="int"/>
+    </bean>
+    <bean class="org.example.pojos.Addition" name="add2">
+        <constructor-arg value="2" type="int" index="1"/>
+        <constructor-arg value="1" type="double" index="0"/>
+    </bean>
+</beans>

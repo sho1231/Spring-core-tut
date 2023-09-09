@@ -24,6 +24,11 @@ public class Student {
   }
   public Student(){
     super();
+    System.out.println("Default constructor");
+  }
+  public Student(Student student){
+    super();
+    System.out.println("From object:"+student);
   }
   public Student(int id,String name,String grade){
     super();
