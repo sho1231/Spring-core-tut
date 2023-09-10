@@ -1,3 +1,5 @@
 
+G	java:S106"+Replace this use of System.out by a logger.(ŒÃ£²8‰¹ÒÈ§1
+G	java:S106"+Replace this use of System.out by a logger.(µÏ†8¼ìÒÈ§1
 [
-java:S1128">Remove this unused import 'com.sun.net.httpserver.HttpServer'.( üà8±ÔƒŠ§1
+java:S1128">Remove this unused import 'com.sun.net.httpserver.HttpServer'.( üà8¹ÒÈ§1

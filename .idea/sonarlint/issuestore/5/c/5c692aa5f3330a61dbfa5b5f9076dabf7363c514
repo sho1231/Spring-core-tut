@@ -1,0 +1,5 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(õ¼ð¦øÿÿÿÿ8æêÌ‚¨1
+G	java:S106"+Replace this use of System.out by a logger.(µ´ô¸8çêÌ‚¨1
+^
+java:S1128"<Remove this unused import 'javax.security.auth.Destroyable'.(îò×Ýùÿÿÿÿ8çêÌ‚¨1

@@ -1,0 +1,12 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¡öªàÿÿÿÿÿ8Ïõ¡Ò§1
+L	java:S106"+Replace this use of System.out by a logger.(ö‹ºÃøÿÿÿÿ8Ğõ¡Ò§1
+G	java:S106"+Replace this use of System.out by a logger.(×çÎİ8Ğõ¡Ò§1
+G	java:S106"+Replace this use of System.out by a logger.(‘ÿÑç8Ñõ¡Ò§1
+Q
+java:S1172"/Remove these unused method parameters "a", "c".(öîÿÿÿÿÿ8Ñõ¡Ò§1
+L	java:S106"+Replace this use of System.out by a logger.(ïá££ıÿÿÿÿ8Òõ¡Ò§1
+G
+java:S1068"%Remove this unused "a" private field.(Ş‹®øÿÿÿÿ8Òõ¡Ò§1
+G
+java:S1068"%Remove this unused "b" private field.(Ø¾ì±üÿÿÿÿ8Òõ¡Ò§1

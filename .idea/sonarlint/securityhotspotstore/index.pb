@@ -13,3 +13,9 @@ V
 0src/main/java/org/example/pojos/BDependency.java,b/a/ba5c603e33fa08ecefc07eab9ce5aa86684aacf1
 _
 /src/main/java/org/example/pojos/ADependent.java,3/1/319a3b54cc4af8a58ae6aebf8f76d3b4c0376f36
+]
+-src/main/java/org/example/pojos/Addition.java,f/a/faa381632c1cd62897544d91d11724606bf53b5b
+^
+.src/main/java/org/example/pojos/LifeCycle.java,5/c/5c692aa5f3330a61dbfa5b5f9076dabf7363c514
+m
+=src/main/java/org/example/pojos/LifeCycleUsingAnnotation.java,a/3/a365e6b5279fa9c0b23528157c502a2459400d9c

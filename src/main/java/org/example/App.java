@@ -22,6 +22,7 @@ public class App
         ioc2.registerShutdownHook();
        BDependency obj= (BDependency)ioc2.getBean("b");
        obj.display();
-
+       LifeCycle obj1=(LifeCycle) ioc2.getBean("l");
+       LifeCycleUsingAnnotation obj2=(LifeCycleUsingAnnotation) ioc2.getBean("life");
     }
 }

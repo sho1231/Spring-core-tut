@@ -7,9 +7,16 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-
+<!--    This will enable all annotation-->
+<!--    <context:annotation-config/>-->
+    <bean class="org.example.pojos.LifeCycleUsingAnnotation" name="life"/>
+    <bean class="org.example.pojos.LifeCycle" name="l">
+        <!--        <constructor-arg value="1"/>-->
+    </bean>
     <bean class="org.example.pojos.BDependency" name="b" init-method="init" destroy-method="destroy">
-<!--        <constructor-arg value="1"/>-->
+        <!--        <constructor-arg value="1"/>-->
         <property name="num" value="1"/>
     </bean>
+<!--    This will enable only the below mentioned Annotation-->
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
 </beans>
