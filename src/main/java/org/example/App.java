@@ -18,11 +18,13 @@ public class App
 //        ADependent obj=(ADependent) ioc.getBean("student");
 //        System.out.println(obj);
 //        obj.display();
-        AbstractApplicationContext ioc2=new ClassPathXmlApplicationContext("lifeCycle.xml");
-        ioc2.registerShutdownHook();
-       BDependency obj= (BDependency)ioc2.getBean("b");
-       obj.display();
-       LifeCycle obj1=(LifeCycle) ioc2.getBean("l");
-       LifeCycleUsingAnnotation obj2=(LifeCycleUsingAnnotation) ioc2.getBean("life");
+        AbstractApplicationContext ioc2=new ClassPathXmlApplicationContext("autowire.xml");
+//        ioc2.registerShutdownHook();
+//       BDependency obj= (BDependency)ioc2.getBean("b");
+//       obj.display();
+//       LifeCycle obj1=(LifeCycle) ioc2.getBean("l");
+//       LifeCycleUsingAnnotation obj2=(LifeCycleUsingAnnotation) ioc2.getBean("life");
+          Employee emp=ioc2.getBean("emp", Employee.class);
+          System.out.println(emp);
     }
 }

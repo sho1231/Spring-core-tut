@@ -7,6 +7,7 @@ public class Employee {
   private String name;
   private List<String> phNo;
   private Map<String,String> courses;
+  private Address obj;
   public Employee(){
     super();
   }
@@ -41,8 +42,14 @@ public class Employee {
   public void setCourses(Map<String, String> courses) {
     this.courses = courses;
   }
+  public void setObj(Address obj){
+    this.obj=obj;
+  }
+  public Address getObj(){
+    return obj;
+  }
   @Override
   public String toString(){
-    return "name:"+name+" || phNo:"+phNo+" || courses:"+courses;
+    return "name:"+name+" || phNo:"+phNo+" || courses:"+courses+" || "+obj;
   }
 }

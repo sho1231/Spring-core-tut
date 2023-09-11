@@ -19,3 +19,5 @@ _
 .src/main/java/org/example/pojos/LifeCycle.java,5/c/5c692aa5f3330a61dbfa5b5f9076dabf7363c514
 m
 =src/main/java/org/example/pojos/LifeCycleUsingAnnotation.java,a/3/a365e6b5279fa9c0b23528157c502a2459400d9c
+\
+,src/main/java/org/example/pojos/Address.java,c/6/c6c87ed2b2ecef66bb92b7184559f06ce8958c80
