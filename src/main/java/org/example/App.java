@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.pojos.*;
+import org.example.pojos.annotation.Employee;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -18,7 +18,7 @@ public class App
 //        ADependent obj=(ADependent) ioc.getBean("student");
 //        System.out.println(obj);
 //        obj.display();
-        AbstractApplicationContext ioc2=new ClassPathXmlApplicationContext("autowire.xml");
+        AbstractApplicationContext ioc2=new ClassPathXmlApplicationContext("annotationAutowire.xml");
 //        ioc2.registerShutdownHook();
 //       BDependency obj= (BDependency)ioc2.getBean("b");
 //       obj.display();
